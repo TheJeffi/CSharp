@@ -1,0 +1,15 @@
+H:\VisualProjects\LearnCSharp\Collections\bin\Debug\net6.0\Collections.exe
+H:\VisualProjects\LearnCSharp\Collections\bin\Debug\net6.0\Collections.deps.json
+H:\VisualProjects\LearnCSharp\Collections\bin\Debug\net6.0\Collections.runtimeconfig.json
+H:\VisualProjects\LearnCSharp\Collections\bin\Debug\net6.0\Collections.dll
+H:\VisualProjects\LearnCSharp\Collections\bin\Debug\net6.0\Collections.pdb
+H:\VisualProjects\LearnCSharp\Collections\obj\Debug\net6.0\Collections.csproj.AssemblyReference.cache
+H:\VisualProjects\LearnCSharp\Collections\obj\Debug\net6.0\Collections.GeneratedMSBuildEditorConfig.editorconfig
+H:\VisualProjects\LearnCSharp\Collections\obj\Debug\net6.0\Collections.AssemblyInfoInputs.cache
+H:\VisualProjects\LearnCSharp\Collections\obj\Debug\net6.0\Collections.AssemblyInfo.cs
+H:\VisualProjects\LearnCSharp\Collections\obj\Debug\net6.0\Collections.csproj.CoreCompileInputs.cache
+H:\VisualProjects\LearnCSharp\Collections\obj\Debug\net6.0\Collections.dll
+H:\VisualProjects\LearnCSharp\Collections\obj\Debug\net6.0\refint\Collections.dll
+H:\VisualProjects\LearnCSharp\Collections\obj\Debug\net6.0\Collections.pdb
+H:\VisualProjects\LearnCSharp\Collections\obj\Debug\net6.0\Collections.genruntimeconfig.cache
+H:\VisualProjects\LearnCSharp\Collections\obj\Debug\net6.0\ref\Collections.dll
