@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,8 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ExtencionMethod\**" />
     <Compile Remove="Tuple\**" />
+    <EmbeddedResource Remove="ExtencionMethod\**" />
     <EmbeddedResource Remove="Tuple\**" />
+    <None Remove="ExtencionMethod\**" />
     <None Remove="Tuple\**" />
   </ItemGroup>
 
