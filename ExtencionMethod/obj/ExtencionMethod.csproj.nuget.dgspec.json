@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\VisualProjects\\LearnCSharp\\ExtencionMethod\\ExtencionMethod.csproj": {}
+  },
+  "projects": {
+    "H:\\VisualProjects\\LearnCSharp\\ExtencionMethod\\ExtencionMethod.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\VisualProjects\\LearnCSharp\\ExtencionMethod\\ExtencionMethod.csproj",
+        "projectName": "ExtencionMethod",
+        "projectPath": "H:\\VisualProjects\\LearnCSharp\\ExtencionMethod\\ExtencionMethod.csproj",
+        "packagesPath": "C:\\Users\\TheJe\\.nuget\\packages\\",
+        "outputPath": "H:\\VisualProjects\\LearnCSharp\\ExtencionMethod\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TheJe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
