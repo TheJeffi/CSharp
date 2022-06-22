@@ -20,5 +20,22 @@ namespace DB
         public DateTime Birthday { get { return _birthday; } set { _birthday = value; } }
         public char Gender { get { return _gender; } set { _gender = value; } }
 
+        public User (int id, string firstName, string lastName, DateTime birthday, char gender)
+        {
+            Id = id;
+            FirstName = firstName;
+            LastName = lastName;
+            Birthday = birthday;
+            Gender = gender;
+        }
+
+        public User()
+        {
+            Id = 0;
+            FirstName = "noname";
+            LastName = "undefined";
+            Birthday = DateTime.Now.Date;
+            Gender = '-';
+        }
     }
 }

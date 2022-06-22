@@ -8,8 +8,7 @@ namespace DB
         {
             Program program = new Program();
 
-/*            program.AddPerson();
-            program.AddPerson();*/
+            program.AddPersons();
 
             program.RemovePerson();
 
@@ -20,29 +19,36 @@ namespace DB
             program.PrintPersons();
         }
 
-        private void AddPerson()
+        private void AddPersons()
         {
             using (ApplicationContext db = new ApplicationContext())
             {
-                User user = new User();
+                ConsoleKey consoleKey = ConsoleKey.Y;
+                while (consoleKey == ConsoleKey.Y)
+                {
+                    User user = new User();
 
-                Console.WriteLine("Write name");
-                user.FirstName = Console.ReadLine();
+                    Console.WriteLine("Write name");
+                    user.FirstName = Console.ReadLine();
 
-                Console.WriteLine("Write lastname");
-                user.LastName = Console.ReadLine();
+                    Console.WriteLine("Write lastname");
+                    user.LastName = Console.ReadLine();
 
-                Console.WriteLine("Write Birthday (dd.mm.yyyy)");
-                user.Birthday = DateTime.Parse(Console.ReadLine());
+                    Console.WriteLine("Write Birthday (dd.mm.yyyy)");
+                    user.Birthday = DateTime.Parse(Console.ReadLine());
 
-                Console.WriteLine("Write gender (m/f)");
-                user.Gender = char.Parse(Console.ReadLine());
+                    Console.WriteLine("Write gender (m/f)");
+                    user.Gender = char.Parse(Console.ReadLine());
 
-                db.Users.Add(user);
-                db.SaveChanges();
+                    db.Users.Add(user);
+                    db.SaveChanges();
+
+                    Console.WriteLine("Add new person? Y - yes, any button - no");
+                    consoleKey = Console.ReadKey(true).Key;
+                }
+
             }
         }
-
         private void DeleteFromDB()
         {
             Console.WriteLine("Enter the name of the person you want to delete");
@@ -65,11 +71,9 @@ namespace DB
 
                     throw new Exception("Error when working with SQLite");
                 }
-                
-                
             }
         }
-        
+
         private void RemovePerson()
         {
             using (ApplicationContext db = new ApplicationContext())
