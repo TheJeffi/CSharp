@@ -1,0 +1,15 @@
+H:\VisualProjects\LearnCSharp\Sorts\bin\Debug\net6.0\Sorts.exe
+H:\VisualProjects\LearnCSharp\Sorts\bin\Debug\net6.0\Sorts.deps.json
+H:\VisualProjects\LearnCSharp\Sorts\bin\Debug\net6.0\Sorts.runtimeconfig.json
+H:\VisualProjects\LearnCSharp\Sorts\bin\Debug\net6.0\Sorts.dll
+H:\VisualProjects\LearnCSharp\Sorts\bin\Debug\net6.0\Sorts.pdb
+H:\VisualProjects\LearnCSharp\Sorts\obj\Debug\net6.0\Sorts.csproj.AssemblyReference.cache
+H:\VisualProjects\LearnCSharp\Sorts\obj\Debug\net6.0\Sorts.GeneratedMSBuildEditorConfig.editorconfig
+H:\VisualProjects\LearnCSharp\Sorts\obj\Debug\net6.0\Sorts.AssemblyInfoInputs.cache
+H:\VisualProjects\LearnCSharp\Sorts\obj\Debug\net6.0\Sorts.AssemblyInfo.cs
+H:\VisualProjects\LearnCSharp\Sorts\obj\Debug\net6.0\Sorts.csproj.CoreCompileInputs.cache
+H:\VisualProjects\LearnCSharp\Sorts\obj\Debug\net6.0\Sorts.dll
+H:\VisualProjects\LearnCSharp\Sorts\obj\Debug\net6.0\refint\Sorts.dll
+H:\VisualProjects\LearnCSharp\Sorts\obj\Debug\net6.0\Sorts.pdb
+H:\VisualProjects\LearnCSharp\Sorts\obj\Debug\net6.0\Sorts.genruntimeconfig.cache
+H:\VisualProjects\LearnCSharp\Sorts\obj\Debug\net6.0\ref\Sorts.dll

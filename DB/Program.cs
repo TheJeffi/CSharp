@@ -4,21 +4,25 @@ namespace DB
 {
     internal class Program
     {
+
         static void Main(string[] args)
         {
             Program program = new Program();
-
-            program.AddPersons();
-
-            program.RemovePerson();
-
-            program.PrintPersons();
-
-            program.DeleteFromDB();
-
-            program.PrintPersons();
+            program.DBTest();
         }
 
+        private void DBTest()
+        {
+            AddPersons();
+
+            RemovePerson();
+
+            PrintPersons();
+
+            DeleteFromDB();
+
+            PrintPersons();
+        }
         private void AddPersons()
         {
             using ApplicationContext db = new();
