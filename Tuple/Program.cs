@@ -1,4 +1,4 @@
-﻿namespace LearnCSharp
+﻿namespace Tuple
 {
     internal class Program
     {

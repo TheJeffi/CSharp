@@ -1,4 +1,4 @@
-﻿namespace LearnCSharp
+﻿namespace ExtensionMethod
 {
     public static class Extensions
     {
